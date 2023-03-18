@@ -8,7 +8,7 @@ metadata:
    # nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: zaltsch.chizaram.live
+  - host: sock-shop.chizaram.live
     http:
       path:
         backend:
@@ -27,7 +27,7 @@ metadata:
     kubernetes.io/ingress.class: nginx 
 spec:
   rules:
-  - host: zaltsch.chizaram.live
+  - host: voting.chizaram.live
     http:
       path:
         backend:
