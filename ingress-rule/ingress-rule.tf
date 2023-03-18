@@ -11,7 +11,7 @@ resource "kubernetes_ingress_v1" "voting-ingress" {
 
   spec {
     rule {
-      host = "zaltsch.chizaram.live"
+      host = "voting.chizaram.live"
       http {
         path {
           backend {
@@ -42,7 +42,7 @@ resource "kubernetes_ingress_v1" "micro-ingress" {
 
   spec {
     rule {
-      host = "zaltsch.chizaram.live"
+      host = "sock-shop.chizaram.live"
       http {
         path {
           backend {
